@@ -2,9 +2,12 @@ Real time Face Detection and Recognition
 ===
 Cílem je vyvinout efektivní metody rozpoznání obličejů v reálném čase pro odemčení dveří. 
 Implementaci tedy můžeme shrnout do následujících fází:
- • Detekce obličeje
- • Natrénování dat 
- • Rozpoznání obličeje 
+
+***• Detekce obličeje***
+
+***• Natrénování dat***
+
+***• Rozpoznání obličeje*** 
  
 Aplikace je napsána v jazyce C++ s využitím knihovny počítačového vidění OpenCV.
 
@@ -20,3 +23,6 @@ Před tím než začneme samotné rozpoznání testovacích dat,musíme správn�
  Jako poslední fáze procesu klasifikujeme vstupní testovací obrázek na základě nejkratší vzdálenosti mezi vyextrahovanými příznaky tohoto obrázku a natrénovaných dat. 
  
  Všechny fáze procesu detekce a rozpoznání tváře jsou důležité, protože jsou propojené mezi sebou a každá následující fáze je závislá na předchozí.
+
+
+***Více viz uživatelská_dokumentace.***
